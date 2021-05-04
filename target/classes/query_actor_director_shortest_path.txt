@@ -1,0 +1,4 @@
+MATCH path=shortestPath(
+	(a:Actor { Name: ''})-[:KNOWS*]-(b:Director {Name: ''})
+)
+RETURN path

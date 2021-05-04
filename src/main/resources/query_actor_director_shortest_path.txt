@@ -1,0 +1,4 @@
+MATCH path=shortestPath(
+	(a:Actor { Name: 'Leonardo DiCaprio'})-[:KNOWS*]-(b:Director {Name: 'Steven Spielberg'})
+)
+RETURN path

@@ -1,0 +1,1 @@
+MATCH (a: Movie {Title: ''})<-[:ACTED_IN*]-(relatedActors) RETURN a,relatedActors

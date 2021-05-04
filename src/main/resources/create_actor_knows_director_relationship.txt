@@ -1,0 +1,2 @@
+MATCH (a:Actor {Name: 'Tom Hanks'}), (b:Director {Name: 'Steven Spielberg'}) MERGE (a)-[:KNOWS]->(b)-[:KNOWS]->(a)
+
